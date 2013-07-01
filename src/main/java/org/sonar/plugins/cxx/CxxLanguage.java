@@ -27,7 +27,7 @@ import org.sonar.api.resources.AbstractLanguage;
  * {@inheritDoc}
  */
 public final class CxxLanguage extends AbstractLanguage {
-  static final String DEFAULT_FILE_SUFFIXES = "cxx,cpp,cc,h,hxx,hpp,hh";
+  static final String DEFAULT_FILE_SUFFIXES = "cxx,cpp,cc,c,h,hxx,hpp,hh";
   private Configuration config;
 
   public static final String KEY = "c++";
